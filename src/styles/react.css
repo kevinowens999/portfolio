@@ -399,9 +399,6 @@ a[data-inactive-agency-link] { cursor: default; pointer-events: none; }
 
 .brand-logo { display: block; width: 190px; line-height: 0; }
 .brand-logo svg { display: block; width: 100%; height: 64px; }
-.brand-logo .brand-logo__light { display: none; }
-html[data-theme="light"] .brand-logo .brand-logo__light { display: block; }
-html[data-theme="light"] .brand-logo .brand-logo__dark { display: none; }
 .personal-footer__brand { display: inline-block; }
 .personal-footer__brand .brand-logo { width: 240px; }
 .personal-footer__brand .brand-logo svg { height: 80px; }

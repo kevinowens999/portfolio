@@ -54,10 +54,9 @@ export default function usePageInteractions() {
     });
     cleanups.push(() => carousels.forEach(swiper => swiper.destroy(true, true)));
     const updateTabLogo = () => {
-      const theme = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
       document.querySelectorAll('link[rel="icon"]').forEach(icon => {
-        icon.href = '/assets/brand/favicon.png?v=6';
-        icon.type = 'image/svg+xml';
+        icon.href = '/assets/brand/favicon.png?v=7';
+        icon.type = 'image/png';
       });
     };
     all('.theme-toggle-btn').forEach(button => activate(button, () => {
