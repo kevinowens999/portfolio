@@ -1,0 +1,708 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.17.0
+2 info using node@v24.19.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\dev data\Portfolio\Portfolio_v3.1_FullStack_AI\.npmrc
+5 silly config load:file:C:\Users\aurora\.npmrc
+6 silly config load:file:C:\Users\aurora\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:E:\dev data\Portfolio\Portfolio_v3.1_FullStack_AI\.npm-cache\_logs\2026-09-06T23_16_05_959Z-
+10 verbose logfile E:\dev data\Portfolio\Portfolio_v3.1_FullStack_AI\.npm-cache\_logs\2026-09-06T23_16_05_959Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest next@latest
+15 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/next 2745ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/next set size:undefined disposed:false
+18 silly fetch manifest @opentelemetry/api@^1.1.0
+19 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 257ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+22 silly fetch manifest @playwright/test@^1.51.0
+23 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 654ms (cache updated)
+25 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:undefined disposed:false
+26 silly fetch manifest babel-plugin-react-compiler@*
+27 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 262ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:undefined disposed:false
+30 silly fetch manifest react@^19.1.0
+31 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/react 586ms (cache updated)
+33 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+34 silly fetch manifest react-dom@^19.1.0
+35 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/react-dom 320ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9352158 disposed:false
+38 silly fetch manifest sass@^1.3.0
+39 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/sass 240ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/sass set size:750020 disposed:false
+42 silly placeDep ROOT next@16.3.4 OK for: dan-personal-portfolio@1.0.0 want: latest
+43 silly fetch manifest postcss@8.5.23
+44 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+45 silly fetch manifest @next/env@16.3.4
+46 silly packumentCache full:https://registry.npmjs.org/@next%2fenv cache-miss
+47 silly fetch manifest styled-jsx@5.1.6
+48 silly packumentCache full:https://registry.npmjs.org/styled-jsx cache-miss
+49 silly fetch manifest @swc/helpers@0.5.23
+50 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+51 silly fetch manifest caniuse-lite@^1.0.30001579
+52 silly packumentCache full:https://registry.npmjs.org/caniuse-lite cache-miss
+53 silly fetch manifest baseline-browser-mapping@^2.9.19
+54 silly packumentCache full:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+55 silly fetch manifest sharp@^0.35.4
+56 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/postcss 958ms (cache revalidated)
+58 silly packumentCache full:https://registry.npmjs.org/postcss set size:766699 disposed:false
+59 silly fetch manifest @next/swc-darwin-x64@16.3.4
+60 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@next%2fenv 1058ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/@next%2fenv set size:undefined disposed:false
+63 silly fetch manifest @next/swc-darwin-arm64@16.3.4
+64 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 1301ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:undefined disposed:false
+67 silly fetch manifest @next/swc-linux-x64-gnu@16.3.4
+68 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/styled-jsx 1322ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/styled-jsx set size:undefined disposed:false
+71 silly fetch manifest @next/swc-linux-x64-musl@16.3.4
+72 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/sharp 1648ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/sharp set size:undefined disposed:false
+75 silly fetch manifest @next/swc-win32-x64-msvc@16.3.4
+76 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 647ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:undefined disposed:false
+79 silly fetch manifest @next/swc-linux-arm64-gnu@16.3.4
+80 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 2087ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/baseline-browser-mapping set size:undefined disposed:false
+83 silly fetch manifest @next/swc-linux-arm64-musl@16.3.4
+84 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/caniuse-lite 2358ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/caniuse-lite set size:undefined disposed:false
+87 silly fetch manifest @next/swc-win32-arm64-msvc@16.3.4
+88 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 1074ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:undefined disposed:false
+91 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 862ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:undefined disposed:false
+93 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 1692ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:undefined disposed:false
+95 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-x64-msvc 1549ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc set size:undefined disposed:false
+97 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 1932ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:undefined disposed:false
+99 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 2500ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:undefined disposed:false
+101 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 1383ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:undefined disposed:false
+103 silly fetch manifest react@^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
+104 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+105 http cache https://registry.npmjs.org/react 18ms (cache hit)
+106 silly packumentCache full:https://registry.npmjs.org/react set size:6951224 disposed:false
+107 silly placeDep ROOT @next/env@16.3.4 OK for: next@16.3.4 want: 16.3.4
+108 silly placeDep ROOT @next/swc-darwin-arm64@16.3.4 OK for: next@16.3.4 want: 16.3.4
+109 silly placeDep ROOT @next/swc-darwin-x64@16.3.4 OK for: next@16.3.4 want: 16.3.4
+110 silly placeDep ROOT @next/swc-linux-arm64-gnu@16.3.4 OK for: next@16.3.4 want: 16.3.4
+111 silly placeDep ROOT @next/swc-linux-arm64-musl@16.3.4 OK for: next@16.3.4 want: 16.3.4
+112 silly placeDep ROOT @next/swc-linux-x64-gnu@16.3.4 OK for: next@16.3.4 want: 16.3.4
+113 silly placeDep ROOT @next/swc-linux-x64-musl@16.3.4 OK for: next@16.3.4 want: 16.3.4
+114 silly placeDep ROOT @next/swc-win32-arm64-msvc@16.3.4 OK for: next@16.3.4 want: 16.3.4
+115 silly placeDep ROOT @next/swc-win32-x64-msvc@16.3.4 OK for: next@16.3.4 want: 16.3.4
+116 silly placeDep ROOT @swc/helpers@0.5.23 OK for: next@16.3.4 want: 0.5.23
+117 silly placeDep ROOT baseline-browser-mapping@2.11.21 OK for: next@16.3.4 want: ^2.9.19
+118 silly placeDep ROOT caniuse-lite@1.0.30001810 OK for: next@16.3.4 want: ^1.0.30001579
+119 silly placeDep node_modules/next postcss@8.5.23 OK for: next@16.3.4 want: 8.5.23
+120 silly placeDep ROOT sharp@0.35.4 OK for: next@16.3.4 want: ^0.35.4
+121 silly placeDep ROOT styled-jsx@5.1.6 OK for: next@16.3.4 want: 5.1.6
+122 silly fetch manifest tslib@^2.8.0
+123 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+124 silly fetch manifest semver@^7.8.5
+125 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+126 silly fetch manifest @img/colour@^1.1.0
+127 silly packumentCache full:https://registry.npmjs.org/@img%2fcolour cache-miss
+128 silly fetch manifest detect-libc@^2.1.2
+129 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+130 silly fetch manifest @img/sharp-linux-arm@0.35.4
+131 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm cache-miss
+132 silly fetch manifest @img/sharp-linux-x64@0.35.4
+133 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 cache-miss
+134 silly fetch manifest @img/sharp-win32-x64@0.35.4
+135 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/detect-libc 237ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:undefined disposed:false
+138 silly fetch manifest @img/sharp-darwin-x64@0.35.4
+139 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 cache-miss
+140 http fetch GET 200 https://registry.npmjs.org/tslib 240ms (cache miss)
+141 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+142 silly fetch manifest @img/sharp-win32-ia32@0.35.4
+143 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-x64 266ms (cache miss)
+145 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-x64 set size:undefined disposed:false
+146 silly fetch manifest @img/sharp-linux-arm64@0.35.4
+147 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm64 255ms (cache miss)
+149 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 set size:undefined disposed:false
+150 silly fetch manifest @img/sharp-linux-ppc64@0.35.4
+151 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-ia32 301ms (cache miss)
+153 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 set size:undefined disposed:false
+154 silly fetch manifest @img/sharp-linux-s390x@0.35.4
+155 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-x64 319ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 set size:undefined disposed:false
+158 silly fetch manifest @img/sharp-win32-arm64@0.35.4
+159 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/@img%2fcolour 586ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/@img%2fcolour set size:undefined disposed:false
+162 silly fetch manifest @img/sharp-darwin-arm64@0.35.4
+163 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 cache-miss
+164 http fetch GET 200 https://registry.npmjs.org/semver 687ms (cache miss)
+165 silly packumentCache full:https://registry.npmjs.org/semver set size:undefined disposed:false
+166 silly fetch manifest @img/sharp-linux-riscv64@0.35.4
+167 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-ppc64 280ms (cache miss)
+169 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 set size:undefined disposed:false
+170 silly fetch manifest @img/sharp-linuxmusl-x64@0.35.4
+171 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 cache-miss
+172 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-s390x 281ms (cache miss)
+173 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x set size:undefined disposed:false
+174 silly fetch manifest @img/sharp-freebsd-wasm32@0.35.4
+175 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-freebsd-wasm32 cache-miss
+176 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-arm64 280ms (cache miss)
+177 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 set size:undefined disposed:false
+178 silly fetch manifest @img/sharp-linuxmusl-arm64@0.35.4
+179 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 cache-miss
+180 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-arm64 270ms (cache miss)
+181 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 set size:undefined disposed:false
+182 silly fetch manifest @img/sharp-libvips-linux-arm@1.3.3
+183 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm cache-miss
+184 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-riscv64 319ms (cache miss)
+185 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 set size:undefined disposed:false
+186 silly fetch manifest @img/sharp-libvips-linux-x64@1.3.3
+187 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 cache-miss
+188 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 265ms (cache miss)
+189 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 set size:undefined disposed:false
+190 silly fetch manifest @img/sharp-libvips-darwin-x64@1.3.3
+191 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 cache-miss
+192 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm 276ms (cache miss)
+193 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm set size:undefined disposed:false
+194 silly fetch manifest @img/sharp-libvips-linux-arm64@1.3.3
+195 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 cache-miss
+196 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-freebsd-wasm32 322ms (cache miss)
+197 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-freebsd-wasm32 set size:undefined disposed:false
+198 silly fetch manifest @img/sharp-libvips-linux-ppc64@1.3.3
+199 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 cache-miss
+200 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 337ms (cache miss)
+201 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 set size:undefined disposed:false
+202 silly fetch manifest @img/sharp-libvips-linux-s390x@1.3.3
+203 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x cache-miss
+204 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 244ms (cache miss)
+205 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 set size:undefined disposed:false
+206 silly fetch manifest @img/sharp-libvips-darwin-arm64@1.3.3
+207 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 253ms (cache miss)
+209 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 set size:undefined disposed:false
+210 silly fetch manifest @img/sharp-webcontainers-wasm32@0.35.4
+211 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-webcontainers-wasm32 cache-miss
+212 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-x64 1422ms (cache miss)
+213 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 set size:undefined disposed:false
+214 silly fetch manifest @img/sharp-libvips-linux-riscv64@1.3.3
+215 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 cache-miss
+216 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 359ms (cache miss)
+217 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 set size:undefined disposed:false
+218 silly fetch manifest @img/sharp-libvips-linuxmusl-x64@1.3.3
+219 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x 254ms (cache miss)
+221 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x set size:undefined disposed:false
+222 silly fetch manifest @img/sharp-libvips-linuxmusl-arm64@1.3.3
+223 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 cache-miss
+224 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 300ms (cache miss)
+225 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 set size:undefined disposed:false
+226 silly fetch manifest client-only@0.0.1
+227 silly packumentCache full:https://registry.npmjs.org/client-only cache-miss
+228 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm 1549ms (cache miss)
+229 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm set size:undefined disposed:false
+230 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 326ms (cache miss)
+231 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 set size:undefined disposed:false
+232 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-webcontainers-wasm32 268ms (cache miss)
+233 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-webcontainers-wasm32 set size:undefined disposed:false
+234 http fetch GET 200 https://registry.npmjs.org/client-only 236ms (cache miss)
+235 silly packumentCache full:https://registry.npmjs.org/client-only set size:undefined disposed:false
+236 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 251ms (cache miss)
+237 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 set size:undefined disposed:false
+238 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 268ms (cache miss)
+239 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 set size:undefined disposed:false
+240 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 299ms (cache miss)
+241 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 set size:undefined disposed:false
+242 silly placeDep ROOT tslib@2.8.1 OK for: @swc/helpers@0.5.23 want: ^2.8.0
+243 silly placeDep ROOT @img/colour@1.1.0 OK for: sharp@0.35.4 want: ^1.1.0
+244 silly placeDep ROOT @img/sharp-darwin-arm64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+245 silly placeDep ROOT @img/sharp-darwin-x64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+246 silly placeDep ROOT @img/sharp-freebsd-wasm32@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+247 silly placeDep ROOT @img/sharp-libvips-darwin-arm64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+248 silly placeDep ROOT @img/sharp-libvips-darwin-x64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+249 silly placeDep ROOT @img/sharp-libvips-linux-arm@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+250 silly placeDep ROOT @img/sharp-libvips-linux-arm64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+251 silly placeDep ROOT @img/sharp-libvips-linux-ppc64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+252 silly placeDep ROOT @img/sharp-libvips-linux-riscv64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+253 silly placeDep ROOT @img/sharp-libvips-linux-s390x@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+254 silly placeDep ROOT @img/sharp-libvips-linux-x64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+255 silly placeDep ROOT @img/sharp-libvips-linuxmusl-arm64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+256 silly placeDep ROOT @img/sharp-libvips-linuxmusl-x64@1.3.3 OK for: sharp@0.35.4 want: 1.3.3
+257 silly placeDep ROOT @img/sharp-linux-arm@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+258 silly placeDep ROOT @img/sharp-linux-arm64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+259 silly placeDep ROOT @img/sharp-linux-ppc64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+260 silly placeDep ROOT @img/sharp-linux-riscv64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+261 silly placeDep ROOT @img/sharp-linux-s390x@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+262 silly placeDep ROOT @img/sharp-linux-x64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+263 silly placeDep ROOT @img/sharp-linuxmusl-arm64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+264 silly placeDep ROOT @img/sharp-linuxmusl-x64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+265 silly placeDep ROOT @img/sharp-webcontainers-wasm32@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+266 silly placeDep ROOT @img/sharp-win32-arm64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+267 silly placeDep ROOT @img/sharp-win32-ia32@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+268 silly placeDep ROOT @img/sharp-win32-x64@0.35.4 OK for: sharp@0.35.4 want: 0.35.4
+269 silly placeDep ROOT detect-libc@2.1.2 OK for: sharp@0.35.4 want: ^2.1.2
+270 silly placeDep node_modules/sharp semver@7.8.5 OK for: sharp@0.35.4 want: ^7.8.5
+271 silly fetch manifest @img/sharp-wasm32@0.35.4
+272 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+273 silly fetch manifest @img/sharp-wasm32@0.35.4
+274 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+275 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-wasm32 293ms (cache miss)
+276 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:undefined disposed:false
+277 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-wasm32 293ms (cache miss)
+278 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:undefined disposed:false
+279 silly placeDep ROOT @img/sharp-wasm32@0.35.4 OK for: @img/sharp-freebsd-wasm32@0.35.4 want: 0.35.4
+280 silly fetch manifest @emnapi/runtime@^1.11.3
+281 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+282 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 281ms (cache miss)
+283 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:undefined disposed:false
+284 silly placeDep ROOT @emnapi/runtime@1.11.3 OK for: @img/sharp-wasm32@0.35.4 want: ^1.11.3
+285 silly placeDep ROOT client-only@0.0.1 OK for: styled-jsx@5.1.6 want: 0.0.1
+286 silly reify mark retired [
+286 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@esbuild\\win32-x64'
+286 silly reify ]
+287 silly reify mark retired [
+287 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\fs.scandir'
+287 silly reify ]
+288 silly reify mark retired [
+288 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\fs.stat'
+288 silly reify ]
+289 silly reify mark retired [
+289 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\fs.walk'
+289 silly reify ]
+290 silly reify mark retired [
+290 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@rollup\\rollup-win32-x64-gnu'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@rollup\\rollup-win32-x64-msvc'
+291 silly reify ]
+292 silly reify mark retired [
+292 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@types\\estree'
+292 silly reify ]
+293 silly reify mark retired [
+293 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\array-union'
+293 silly reify ]
+294 silly reify mark retired [
+294 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\async'
+294 silly reify ]
+295 silly reify mark retired [
+295 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\braces'
+295 silly reify ]
+296 silly reify mark retired [
+296 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\commander'
+296 silly reify ]
+297 silly reify mark retired [
+297 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\commondir'
+297 silly reify ]
+298 silly reify mark retired [
+298 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\dir-glob'
+298 silly reify ]
+299 silly reify mark retired [
+299 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\email-addresses'
+299 silly reify ]
+300 silly reify mark retired [
+300 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\esbuild',
+300 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\esbuild',
+300 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\esbuild.cmd',
+300 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\esbuild.ps1'
+300 silly reify ]
+301 silly reify mark retired [
+301 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\escape-string-regexp'
+301 silly reify ]
+302 silly reify mark retired [
+302 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fast-glob'
+302 silly reify ]
+303 silly reify mark retired [
+303 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fastq'
+303 silly reify ]
+304 silly reify mark retired [
+304 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fdir'
+304 silly reify ]
+305 silly reify mark retired [
+305 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\filename-reserved-regex'
+305 silly reify ]
+306 silly reify mark retired [
+306 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\filenamify'
+306 silly reify ]
+307 silly reify mark retired [
+307 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fill-range'
+307 silly reify ]
+308 silly reify mark retired [
+308 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\find-cache-dir'
+308 silly reify ]
+309 silly reify mark retired [
+309 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\find-up'
+309 silly reify ]
+310 silly reify mark retired [
+310 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fs-extra'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\gh-pages',
+311 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages',
+311 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages.cmd',
+311 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages.ps1',
+311 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages-clean',
+311 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages-clean.cmd',
+311 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages-clean.ps1'
+311 silly reify ]
+312 silly reify mark retired [
+312 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\glob-parent'
+312 silly reify ]
+313 silly reify mark retired [
+313 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\globby'
+313 silly reify ]
+314 silly reify mark retired [
+314 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\graceful-fs'
+314 silly reify ]
+315 silly reify mark retired [
+315 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\ignore'
+315 silly reify ]
+316 silly reify mark retired [
+316 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\is-extglob'
+316 silly reify ]
+317 silly reify mark retired [
+317 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\is-glob'
+317 silly reify ]
+318 silly reify mark retired [
+318 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\is-number'
+318 silly reify ]
+319 silly reify mark retired [
+319 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\jsonfile'
+319 silly reify ]
+320 silly reify mark retired [
+320 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\locate-path'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\make-dir'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\merge2'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\micromatch'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\p-limit'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\p-locate'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\p-try'
+326 silly reify ]
+327 silly reify mark retired [
+327 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\path-exists'
+327 silly reify ]
+328 silly reify mark retired [
+328 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\path-type'
+328 silly reify ]
+329 silly reify mark retired [
+329 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\picomatch'
+329 silly reify ]
+330 silly reify mark retired [
+330 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\pkg-dir'
+330 silly reify ]
+331 silly reify mark retired [
+331 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\postcss'
+331 silly reify ]
+332 silly reify mark retired [
+332 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\queue-microtask'
+332 silly reify ]
+333 silly reify mark retired [
+333 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\reusify'
+333 silly reify ]
+334 silly reify mark retired [
+334 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\rollup',
+334 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\rollup',
+334 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\rollup.cmd',
+334 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\rollup.ps1'
+334 silly reify ]
+335 silly reify mark retired [
+335 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\run-parallel'
+335 silly reify ]
+336 silly reify mark retired [
+336 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\semver',
+336 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\semver',
+336 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\semver.cmd',
+336 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\semver.ps1'
+336 silly reify ]
+337 silly reify mark retired [
+337 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\slash'
+337 silly reify ]
+338 silly reify mark retired [
+338 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\strip-outer'
+338 silly reify ]
+339 silly reify mark retired [
+339 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\tinyglobby'
+339 silly reify ]
+340 silly reify mark retired [
+340 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\to-regex-range'
+340 silly reify ]
+341 silly reify mark retired [
+341 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\trim-repeated'
+341 silly reify ]
+342 silly reify mark retired [
+342 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\universalify'
+342 silly reify ]
+343 silly reify mark retired [
+343 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\vite',
+343 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\vite',
+343 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\vite.cmd',
+343 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\vite.ps1'
+343 silly reify ]
+344 silly reify moves {
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@esbuild\\win32-x64': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@esbuild\\.win32-x64-gYdKBiT9',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\fs.scandir': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\.fs.scandir-cNdYsYcf',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\fs.stat': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\.fs.stat-4Fdb4n0V',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\fs.walk': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@nodelib\\.fs.walk-28WrP3MK',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@rollup\\rollup-win32-x64-gnu': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@rollup\\.rollup-win32-x64-gnu-SHgRUdY4',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@rollup\\rollup-win32-x64-msvc': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@rollup\\.rollup-win32-x64-msvc-j4pgmidU',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@types\\estree': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@types\\.estree-bljBeVhO',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\array-union': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.array-union-gyiJ3uLQ',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\async': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.async-A8VmrD0q',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\braces': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.braces-IwJ91fLT',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\commander': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.commander-rJ2yt8k9',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\commondir': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.commondir-Dc5XvGqc',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\dir-glob': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.dir-glob-MRTks72a',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\email-addresses': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.email-addresses-tGpaJFjc',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\esbuild': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.esbuild-SRHhwYMt',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\esbuild': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.esbuild-Vd0Q0WcT',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\esbuild.cmd': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.esbuild.cmd-gf1i19wc',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\esbuild.ps1': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.esbuild.ps1-BQE5dpmC',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\escape-string-regexp': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.escape-string-regexp-93GBtMqM',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fast-glob': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.fast-glob-QZTBbSdo',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fastq': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.fastq-Rid130Dp',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fdir': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.fdir-bpREpQ17',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\filename-reserved-regex': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.filename-reserved-regex-ZU2v6qGF',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\filenamify': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.filenamify-n7e8uXSy',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fill-range': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.fill-range-1CT8g0xH',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\find-cache-dir': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.find-cache-dir-PVsBgrgo',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\find-up': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.find-up-HUfSxSRK',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\fs-extra': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.fs-extra-ikBLBcTQ',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\gh-pages': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.gh-pages-R0B0eMVG',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.gh-pages-zOQY5cxW',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages.cmd': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.gh-pages.cmd-Gp7OBKRB',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages.ps1': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.gh-pages.ps1-Yx0fFB6f',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages-clean': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.gh-pages-clean-BWSHtKZ9',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages-clean.cmd': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.gh-pages-clean.cmd-Z9rwm1ZU',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\gh-pages-clean.ps1': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.gh-pages-clean.ps1-PXnvFmHl',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\glob-parent': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.glob-parent-BqWgrb43',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\globby': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.globby-D4SGkDuX',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\graceful-fs': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.graceful-fs-TYTyF99C',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\ignore': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.ignore-Bssu98n2',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\is-extglob': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.is-extglob-BssmTGUw',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\is-glob': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.is-glob-RScu6BhT',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\is-number': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.is-number-afeZAvkj',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\jsonfile': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.jsonfile-WBpMjUhU',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\locate-path': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.locate-path-8hRUOPTl',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\make-dir': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.make-dir-ydZSypPm',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\merge2': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.merge2-MU87asmD',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\micromatch': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.micromatch-ViunUQ3w',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\p-limit': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.p-limit-T4yJwN6r',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\p-locate': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.p-locate-LI1RZWlM',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\p-try': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.p-try-DomDZ0dL',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\path-exists': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.path-exists-9VnWxjZj',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\path-type': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.path-type-5VQadmPi',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\picomatch': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.picomatch-uD7mfZp7',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\pkg-dir': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.pkg-dir-LI4eDM9p',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\postcss': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.postcss-2gyFOKzw',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\queue-microtask': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.queue-microtask-avfhfSSL',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\reusify': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.reusify-MMDC5vYp',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\rollup': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.rollup-89ZUF5HM',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\rollup': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.rollup-WxLNNBzF',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\rollup.cmd': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.rollup.cmd-zW4eU1BD',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\rollup.ps1': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.rollup.ps1-3LPEs6YJ',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\run-parallel': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.run-parallel-AFmSEBZh',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\semver': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.semver-HKNyyVdI',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\semver': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.semver-Sy4Rtv2E',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\semver.cmd': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.semver.cmd-pUe13ksB',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\semver.ps1': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.semver.ps1-d0H5vXZS',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\slash': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.slash-UykMnRQm',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\strip-outer': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.strip-outer-vwWJOIj7',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\tinyglobby': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.tinyglobby-BC3iV3Tw',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\to-regex-range': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.to-regex-range-LjAanNl3',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\trim-repeated': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.trim-repeated-gm6I4pkF',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\universalify': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.universalify-AtjkKYLp',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\vite': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.vite-NRQ4RxGZ',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\vite': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.vite-qksFj55J',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\vite.cmd': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.vite.cmd-nPs1J5Fc',
+344 silly reify   'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\vite.ps1': 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\.bin\\.vite.ps1-hWfM394k'
+344 silly reify }
+345 silly audit bulk request {
+345 silly audit   '@playwright/test': [ '1.63.0' ],
+345 silly audit   nanoid: [ '3.3.18' ],
+345 silly audit   picocolors: [ '1.1.1' ],
+345 silly audit   playwright: [ '1.63.0' ],
+345 silly audit   'playwright-core': [ '1.63.0' ],
+345 silly audit   postcss: [ '8.5.23' ],
+345 silly audit   react: [ '19.2.8' ],
+345 silly audit   'react-dom': [ '19.2.8' ],
+345 silly audit   scheduler: [ '0.27.0' ],
+345 silly audit   semver: [ '7.8.5' ],
+345 silly audit   'source-map-js': [ '1.2.1' ],
+345 silly audit   swiper: [ '11.2.10' ],
+345 silly audit   next: [ '16.3.4' ],
+345 silly audit   '@next/env': [ '16.3.4' ],
+345 silly audit   '@next/swc-darwin-arm64': [ '16.3.4' ],
+345 silly audit   '@next/swc-darwin-x64': [ '16.3.4' ],
+345 silly audit   '@next/swc-linux-arm64-gnu': [ '16.3.4' ],
+345 silly audit   '@next/swc-linux-arm64-musl': [ '16.3.4' ],
+345 silly audit   '@next/swc-linux-x64-gnu': [ '16.3.4' ],
+345 silly audit   '@next/swc-linux-x64-musl': [ '16.3.4' ],
+345 silly audit   '@next/swc-win32-arm64-msvc': [ '16.3.4' ],
+345 silly audit   '@next/swc-win32-x64-msvc': [ '16.3.4' ],
+345 silly audit   '@swc/helpers': [ '0.5.23' ],
+345 silly audit   'baseline-browser-mapping': [ '2.11.21' ],
+345 silly audit   'caniuse-lite': [ '1.0.30001810' ],
+345 silly audit   sharp: [ '0.35.4' ],
+345 silly audit   'styled-jsx': [ '5.1.6' ],
+345 silly audit   tslib: [ '2.8.1' ],
+345 silly audit   '@img/colour': [ '1.1.0' ],
+345 silly audit   '@img/sharp-darwin-arm64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-darwin-x64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-freebsd-wasm32': [ '0.35.4' ],
+345 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-linux-arm': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-linux-x64': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.3.3' ],
+345 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.3.3' ],
+345 silly audit   '@img/sharp-linux-arm': [ '0.35.4' ],
+345 silly audit   '@img/sharp-linux-arm64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-linux-ppc64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-linux-riscv64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-linux-s390x': [ '0.35.4' ],
+345 silly audit   '@img/sharp-linux-x64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-linuxmusl-x64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-webcontainers-wasm32': [ '0.35.4' ],
+345 silly audit   '@img/sharp-win32-arm64': [ '0.35.4' ],
+345 silly audit   '@img/sharp-win32-ia32': [ '0.35.4' ],
+345 silly audit   '@img/sharp-win32-x64': [ '0.35.4' ],
+345 silly audit   'detect-libc': [ '2.1.2' ],
+345 silly audit   '@img/sharp-wasm32': [ '0.35.4' ],
+345 silly audit   '@emnapi/runtime': [ '1.11.3' ],
+345 silly audit   'client-only': [ '0.0.1' ]
+345 silly audit }
+346 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+347 http cache client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 0ms (cache hit)
+348 http cache @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 0ms (cache hit)
+349 http cache @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.4.tgz 0ms (cache hit)
+350 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+351 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001810.tgz 0ms (cache hit)
+352 http cache sharp@https://registry.npmjs.org/sharp/-/sharp-0.35.4.tgz 0ms (cache hit)
+353 http cache styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 0ms (cache hit)
+354 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.21.tgz 0ms (cache hit)
+355 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-16.3.4.tgz 0ms (cache hit)
+356 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz 0ms (cache hit)
+357 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.23.tgz 0ms (cache hit)
+358 http cache @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.4.tgz 0ms (cache hit)
+359 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+360 silly tarball no local data for client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz. Extracting by manifest.
+361 http cache next@https://registry.npmjs.org/next/-/next-16.3.4.tgz 0ms (cache hit)
+362 silly tarball no local data for @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz. Extracting by manifest.
+363 silly tarball no local data for @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.4.tgz. Extracting by manifest.
+364 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+365 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001810.tgz. Extracting by manifest.
+366 silly tarball no local data for sharp@https://registry.npmjs.org/sharp/-/sharp-0.35.4.tgz. Extracting by manifest.
+367 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz. Extracting by manifest.
+368 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.21.tgz. Extracting by manifest.
+369 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 0ms (cache hit)
+370 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-16.3.4.tgz. Extracting by manifest.
+371 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz. Extracting by manifest.
+372 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.23.tgz. Extracting by manifest.
+373 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.4.tgz. Extracting by manifest.
+374 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-16.3.4.tgz. Extracting by manifest.
+375 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.5.tgz. Extracting by manifest.
+376 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 251ms (cache miss)
+377 http fetch GET 200 https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 251ms (cache miss)
+378 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 257ms (cache miss)
+379 http fetch GET 200 https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 264ms (cache miss)
+380 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 281ms
+381 silly audit report {
+381 silly audit report   swiper: [
+381 silly audit report     {
+381 silly audit report       id: 1113431,
+381 silly audit report       url: 'https://github.com/advisories/GHSA-hmx5-qpq5-p643',
+381 silly audit report       title: 'Prototype pollution in swiper',
+381 silly audit report       severity: 'critical',
+381 silly audit report       vulnerable_versions: '>=6.5.1 <12.1.2',
+381 silly audit report       cwe: [Array],
+381 silly audit report       cvss: [Object]
+381 silly audit report     }
+381 silly audit report   ]
+381 silly audit report }
+382 silly packumentCache corgi:https://registry.npmjs.org/swiper cache-miss
+383 http fetch GET 200 https://registry.npmjs.org/swiper 291ms (cache revalidated)
+384 silly packumentCache corgi:https://registry.npmjs.org/swiper set size:504620 disposed:false
+385 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001810.tgz 1325ms (cache miss)
+386 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 1762ms (cache miss)
+387 http fetch GET 200 https://registry.npmjs.org/sharp/-/sharp-0.35.4.tgz 2249ms (cache miss)
+388 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-16.3.4.tgz 2325ms (cache miss)
+389 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 2724ms (cache miss)
+390 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.21.tgz 2939ms (cache miss)
+391 http fetch GET 200 https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.4.tgz 3581ms (cache miss)
+392 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.23.tgz 3764ms (cache miss)
+393 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz 4056ms (cache miss)
+394 http fetch GET 200 https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.4.tgz 9920ms (cache miss)
+395 warn cleanup Failed to remove some directories [
+395 warn cleanup   [
+395 warn cleanup     '\\\\?\\E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@next',
+395 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'E:\dev data\Portfolio\Portfolio_v3.1_FullStack_AI\node_modules\@next\swc-win32-x64-msvc'] {
+395 warn cleanup       errno: -4048,
+395 warn cleanup       code: 'EPERM',
+395 warn cleanup       syscall: 'rmdir',
+395 warn cleanup       path: 'E:\\dev data\\Portfolio\\Portfolio_v3.1_FullStack_AI\\node_modules\\@next\\swc-win32-x64-msvc'
+395 warn cleanup     }
+395 warn cleanup   ]
+395 warn cleanup ]
+396 verbose stack Error: read ECONNRESET
+396 verbose stack     at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)
+397 error code ECONNRESET
+398 error syscall read
+399 error errno -4077
+400 error network read ECONNRESET
+401 error network This is a problem related to network connectivity.
+401 error network In most cases you are behind a proxy or have bad network settings.
+401 error network
+401 error network If you are behind a proxy, please make sure that the 'proxy' config is set properly.  See: 'npm help config'
+402 silly unfinished npm timer reify 1788736566266
+403 silly unfinished npm timer reify:unpack 1788736577788
+404 silly unfinished npm timer reifyNode:node_modules/next 1788736577788
+405 verbose cwd E:\dev data\Portfolio\Portfolio_v3.1_FullStack_AI
+406 verbose os Windows_NT 10.0.19045
+407 verbose node v24.19.0
+408 verbose npm  v11.17.0
+409 verbose exit -4077
+410 verbose code -4077
+411 error A complete log of this run can be found in: E:\dev data\Portfolio\Portfolio_v3.1_FullStack_AI\.npm-cache\_logs\2026-09-06T23_16_05_959Z-debug-0.log
