@@ -40,7 +40,6 @@ export default function Contact() {
   }
   return (
 <section id={"contact"} className={"contact-form-block"} style={{"--md": "128px", "--mm": "80px"}}><div className={"container"}><div className={"flex"}><div id={""} className={"form-block"} style={{}}><div className={"form-block__head"}><h2 className={"form-block__title"}>{"Let's talk!"}</h2>
-<p>Email me at <a href="mailto:contact@kevinowens.me">contact@kevinowens.me</a>.</p>
 </div>
 <form action="https://formsubmit.co/contact@kevinowens.me" method="POST" onSubmit={submitInquiry} aria-busy={sending} data-contact-delivery="true" className="form form--inverted">
 <input type="hidden" name="_subject" value="New portfolio inquiry for Kevin" />
