@@ -20,7 +20,7 @@ export default function Hero() {
     <div className="container studio-hero__inner">
       <div className="studio-hero__content">
         <div className="studio-hero__badge"><span />Software builder</div>
-        <h1 id="personal-title">Hi, I'm Daniel.<br /><span>I build software<br />people rely on.</span></h1>
+        <h1 id="personal-title">Hi, I'm Kevin.<br /><span>I build software<br />people rely on.</span></h1>
         <p className="personal-hero__intro">I help ambitious teams turn complex ideas into reliable, scalable software. Focused on people, product and real-world impact.</p>
         <div className="personal-hero__actions">
           <Link className="btn btn-blue btn-large" href="/contact">Let's work together <span aria-hidden="true">&#8599;</span></Link>
