@@ -90,7 +90,7 @@ export default function ProjectReviews() {
 <div className={"review__author-position"}>{"Founder & CEO, Zebulon.ai"}</div>
 </div>
 
-<a href={"https://www.linkedin.com/in/gillesdahan/"} className={"review__author-linkedin"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"LinkedIn profile of Gilles Dahan"}>
+<a href={"https://www.linkedin.com/in/kevin-owens-786bb9435"} className={"review__author-linkedin"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"LinkedIn profile of Kevin Owens"}>
 <svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-linkedin"}></use>
 
@@ -223,7 +223,7 @@ export default function ProjectReviews() {
 <div className={"review__author-position"}>{"Technical Product Lead, Event UK"}</div>
 </div>
 
-<a href={"https://www.linkedin.com/in/philipcmason/"} className={"review__author-linkedin"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"LinkedIn profile of Phil Mason"}>
+<a href={"https://www.linkedin.com/in/kevin-owens-786bb9435"} className={"review__author-linkedin"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"LinkedIn profile of Kevin Owens"}>
 <svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-linkedin"}></use>
 
@@ -420,7 +420,7 @@ export default function ProjectReviews() {
 <div className={"review__author-position"}>{"Head of Data, Financial Edge"}</div>
 </div>
 
-<a href={"https://www.linkedin.com/in/deborah-taylor-aca-149988150/"} className={"review__author-linkedin"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"LinkedIn profile of Debs Taylor"}>
+<a href={"https://www.linkedin.com/in/kevin-owens-786bb9435"} className={"review__author-linkedin"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"LinkedIn profile of Kevin Owens"}>
 <svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-linkedin"}></use>
 
