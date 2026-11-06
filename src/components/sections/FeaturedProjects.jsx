@@ -141,6 +141,48 @@ export default function FeaturedProjects() {
 </div>
 </div>
 </article>
+<article className="case-study case-study--full apt-project-card">
+<div className="case-study__thumb">
+<Link href="/projects/apt" aria-label="APT: Email Personalisation & Customer Segmentation" className="case-study__thumb-link" />
+<img src="/assets/apt/hero.png" alt="APT website on laptop and smartphone" className="case-study__img" loading="lazy" decoding="async" />
+<div className="flex"><img src="/assets/apt/logo.png" alt="Australian Pacific Touring" width="98" height="115" className="case-study__logo" loading="lazy" /><span className="case-study__company">Luxury travel</span></div>
+<svg className={"case-study__thumb-svg"} width={"480"} height={"305"} viewBox={"0 0 480 305"} fill={"none"}>
+<g opacity={"0.6"} filter={"url(#apt-featured-glow)"}>
+<path d={"M-26.6341 254.574C106.195 225.915 431.609 174.76 616.778 220.877C741.802 252.015 921.643 390.954 955.473 436.322"} stroke={"#695EFE"} strokeWidth={"189.194"}></path>
+
+</g>
+
+<defs>
+<filter id={"apt-featured-glow"} x={"-154.357"} y={"-0.000205994"} width={"1293.44"} height={"600.644"} filterUnits={"userSpaceOnUse"} colorInterpolationFilters={"sRGB"}>
+<feFlood floodOpacity={"0"} result={"BackgroundImageFix"}></feFlood>
+
+<feBlend mode={"normal"} in={"SourceGraphic"} in2={"BackgroundImageFix"} result={"shape"}></feBlend>
+
+<feGaussianBlur stdDeviation={"53.8861"} result={"effect1_foregroundBlur_8084_18002"}></feGaussianBlur>
+
+</filter>
+
+</defs>
+
+</svg>
+</div>
+<div className="case-study__content"><div className="case-study__content_body">
+<h2 className="case-study__title">APT: Email Personalisation &amp; Customer Segmentation</h2>
+<div className="tags case-study__tags">
+<span className="case-study__tag">Salesforce Marketing Cloud</span>
+<span className="case-study__tag">Customer segmentation</span>
+<span className="case-study__tag">Email personalisation</span>
+<span className="case-study__tag">Marketing automation</span>
+</div>
+<p className="case-study__excerpt">I helped APT turn customer insights into more relevant email campaigns through Salesforce Marketing Cloud, audience segmentation, and personalisation.</p>
+</div>
+<div className="case-study__content_footer"><ul className="case-study__features">
+<li className="case-study__feature"><span>40%</span><span>email open rate</span></li>
+<li className="case-study__feature"><span>2&times;</span><span>email click-through rate</span></li>
+</ul>
+<Link href="/projects/apt" className="btn btn-medium btn-blue btn-blue--transparent">Case details<svg className="icon" aria-hidden="true"><use href="/assets/sprite.svg#icon-diagonal-arrow" /></svg></Link>
+</div></div>
+</article>
 <article className={"case-study case-study--full"}><div className={"case-study__thumb"}>
 <Link href={"/projects/imagine-ai"} aria-label={"How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI"} className={"case-study__thumb-link"}></Link>
 
