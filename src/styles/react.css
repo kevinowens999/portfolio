@@ -569,3 +569,23 @@ html[data-theme="light"] .home .site-main > .studio-hero { background: #f9f9ff; 
 }
 
 .home .site-main > .studio-hero:first-child { margin-top: 0 !important; margin-bottom: 0 !important; }
+
+/* The portrait APT mark needs its own dimensions and reserved layout space. */
+.apt-project-card .case-study__logo {
+  width: 64px;
+  height: auto;
+  max-height: none;
+  max-width: 64px;
+  object-fit: contain;
+}
+.apt-case-banner .case-banner__logo {
+  width: 84px;
+  max-width: 84px;
+  max-height: none;
+  margin-bottom: 28px;
+}
+.apt-case-banner .case-banner__logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

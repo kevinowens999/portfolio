@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import APTProjectCard from '../APTProjectCard';
 import LevelsProjectCard from '../LevelsProjectCard';
 export default function MoreProjects() {
   return (
@@ -192,6 +193,7 @@ export default function MoreProjects() {
 </div>
 </article>
 </div>
+<div className="swiper-slide"><APTProjectCard /></div>
 <div className={"swiper-slide"}><article className={"case-study case-study--card"}>
 <Link className={"case-study__link"} href={"/projects/forethought"}></Link>
 <div className={"case-study__thumb"}>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import APTProjectCard from '../APTProjectCard';
 import LevelsProjectCard from '../LevelsProjectCard';
 export default function ProjectGrid() {
  return (
@@ -178,6 +179,7 @@ export default function ProjectGrid() {
 </div>
 </div>
 </article>
+<APTProjectCard />
 <article className={"case-study case-study--card"}>
 <Link className={"case-study__link"} href={"/projects/forethought"}></Link>
 <div className={"case-study__thumb"}>
